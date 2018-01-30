@@ -18,3 +18,5 @@ For a bonus, let Hermione:
 - add a course to her schedule
 - delete a course from her schedule
 What logic do you need in place to ensure Hermione doesn't add 16 credits of courses to her schedule?
+
+Course professor name credits on_schedule

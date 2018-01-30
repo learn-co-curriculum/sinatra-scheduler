@@ -57,3 +57,9 @@ courses = [
     credits: 1
   }
 ]
+
+courses.each do |c|
+  course = Course.create(c)
+  course.on_schedule = false
+  course.save
+end
