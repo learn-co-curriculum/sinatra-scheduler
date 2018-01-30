@@ -20,3 +20,22 @@ For a bonus, let Hermione:
 What logic do you need in place to ensure Hermione doesn't add 16 credits of courses to her schedule?
 
 Course professor name credits on_schedule
+
+- one model
+- seed data
+
+
+to pull code run
+`git pull`
+`git checkout -b web-010818`
+
+get '/courses'
+app/views/courses.html.erb
+
+get '/courses/:id'
+
+get '/courses/:id/edit'
+patch '/courses/:id'
+
+get '/schedule'
+courses where on_schedule == true
