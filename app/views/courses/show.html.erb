@@ -1,3 +1,6 @@
 <h2><%= @course.name %></h2>
 <p>Professor <%= @course.professor %></p>
 <p>Credits: <%= @course.credits %></p>
+<a href="/courses/<%= @course.id %>/edit">
+  Edit Course
+</a>

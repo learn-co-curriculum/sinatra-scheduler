@@ -2,7 +2,9 @@
 <ul>
   <% @courses.each do |course| %>
     <li>
-      <p><%= course.name %> with Professor <%= course.professor %></p>
+      <a href="/courses/<%= course.id %>">
+        <%= course.name %> with Professor <%= course.professor %>
+      </a>
       <p>Credits: <%= course.credits %></p>
       <div style="display:inline-flex">
       <form style="margin-right:10px" action="/schedule/<%= course.id %>" method="post">
