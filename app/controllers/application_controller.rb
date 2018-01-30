@@ -5,4 +5,9 @@ class ApplicationController < Sinatra::Base
     erb :'index.html'
   end
 
+  get '/schedule' do
+    @courses = Course.where(on_schedule: true)
+    erb :'schedule.html'
+  end
+
 end
