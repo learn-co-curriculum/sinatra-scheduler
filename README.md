@@ -18,3 +18,8 @@ For a bonus, let Hermione:
 - add a course to her schedule
 - delete a course from her schedule
 What logic do you need in place to ensure Hermione doesn't add 16 credits of courses to her schedule?
+
+For a double bonus, how would you build out for multiple users?
+- if you add a database, what migrations are needed?
+- without login, how can you track which user is adding a course to their schedule?
+  - hint: nested routes or a hidden form input could both work
